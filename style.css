@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #010101;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+}   
+
+.menu li {
+    margin: 10px;
+}
+
+.menu li a {
+    font-family: 'Roboto Slab', serif;
+    color: #F2F2F2;
+    display: block;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.menu li a:hover {
+    color: #595959;
+}
+
+.textoFamily {
+    color: #010101;
+    text-align: center;
+    padding: 20px;
+}
+.imagemFamily {
+    width: 100%;
+    height: 100px;
+    background-image: url(imagens/imagemFamily.jpg);
+;
+}
+
+.sectionHistory {
+    display: flex;
+    justify-content: center;
+}
+
+.sectionHistory div {
+    background-color: #010101;
+    width: 80%;
+    height: 600px;
+    flex: 1 1 200px; 
+}
+.sectionHistory h1 {
+    font-family: 'Roboto Slab', serif;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+.sectionHistory p {
+    color: #F2F2F2;
+    margin: 15px 0px;   
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    text-indent: 30px;
+}
+.restaurante {
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    background-image: url(imagens/italy.jpg);
+    width: 100%;
+    height: 50px;
+}
+.restaurante h1 {
+    color: #F2F2F2;
+    text-shadow: 2px 2px 2px black;
+}
+#carouselExampleCaptions {
+    margin: auto;
+    width: 98%;
+    height: 680px;
+}
+#carouselExampleCaptions h5 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #055808;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+}
+#carouselExampleCaptions p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #990000;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
+}
+
+#img0 {
+    width: 100%;
+    height: 680px;
+}
+#img1 {
+    width: 100%;
+    height: 680px;
+}
+#img2 {
+    width: 100%;
+    height: 680px;
+}
+.fundocarrosel {
+    background-color: #010101;
+}
+.lol {
+    color: #F2F2F2;
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    transition: 0.2s;
+}
+
+.cardPrincipal {
+    display: flex;
+}
+#cards {
+    margin: auto;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+.card img {
+    border-radius: 5px;
+}
+.card h5 {
+    text-align: center;
+}
+.cardSegundaLinha {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+.cardTerceiraLinha {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
